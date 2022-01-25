@@ -2,7 +2,7 @@
 
 describe("test for my todo application", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3003/")
+    cy.visit("/")
   })
 
   it("displays No item in the list by default", () => {
